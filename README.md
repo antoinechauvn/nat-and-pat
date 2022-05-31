@@ -37,3 +37,21 @@ Géré par l’IANA (Internet Assigned Numbers Authority)
 
 ![image](https://user-images.githubusercontent.com/83721477/171194866-22e078e3-58de-448d-9698-3b65c8b41c78.png)
 
+Il existe 3 modes de fonctionnement pour le NAT :
+* NAT Statique
+* NAT Dynamique
+* NAT Overlay (PAT)
+
+### NAT Statique
+1 IP privée pour une IP publique
+![image](https://user-images.githubusercontent.com/83721477/171199078-4660eab4-4279-4095-b621-796e7ad87190.png)
+
+### NAT Dynamique
+
+![image](https://user-images.githubusercontent.com/83721477/171199441-0e18ed38-dec6-41a4-8088-bb4ede1633c1.png)
+
+### PAT
+Permets de faire correspondre plusieurs adresses IP privées à une seule adresse publique.
+Pour se faire, notre routeur va jouer sur les numéros de ports.
+
+![image](https://user-images.githubusercontent.com/83721477/171199758-ea5bd70c-f74b-4382-b44a-73dff486aa64.png)
