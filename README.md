@@ -55,3 +55,8 @@ Permets de faire correspondre plusieurs adresses IP privées à une seule adress
 Pour se faire, notre routeur va jouer sur les numéros de ports.
 
 ![image](https://user-images.githubusercontent.com/83721477/171199758-ea5bd70c-f74b-4382-b44a-73dff486aa64.png)
+
+## Notes
+* Toutes les BOX Internet fonctionnent en PAT.
+* Les postes présents dans votre réseau domestique utilisent donc l’adresse IP publique de votre BOX.
+* Si vous voulez mettre en place un serveur accessible de l’extérieur derrière votre BOX, vous allez devoir faire du Port-Forwarding. (Redirection de port) Une redirection de port permet de dire à votre BOX de rester en écoute sur un port en particulier. S’il reçoit quelque chose sur ce dernier, il va toujours le retransmettre à l’utilisateur spécifié.
