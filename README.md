@@ -28,16 +28,16 @@ L’adressage IPv6 est en cours de déploiement.
 
 ![image](https://user-images.githubusercontent.com/83721477/171190838-3c5ed222-2886-4849-806f-ef0a250c7ea1.png)
 
-Création de deux zones :
-
 * PRIVATE (Adressage privé)<br>
 Définis par la RFC 1918
 * PUBLIC (Adressage public) <br>
 Géré par l’IANA (Internet Assigned Numbers Authority)
 
+### Exemple NAT
+
 ![image](https://user-images.githubusercontent.com/83721477/171194866-22e078e3-58de-448d-9698-3b65c8b41c78.png)
 
-Il existe 3 modes de fonctionnement pour le NAT :
+### 3 modes de fonctionnement pour le NAT :
 * NAT Statique
 * NAT Dynamique
 * NAT Overlay (PAT)
