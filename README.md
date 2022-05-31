@@ -31,6 +31,6 @@ L’adressage IPv6 est en cours de déploiement.
 Création de deux zones :
 
 * PRIVATE (Adressage privé)<br>
-définis par la RFC 1918
+Définis par la RFC 1918
 * PUBLIC (Adressage public) <br>
 Géré par l’IANA (Internet Assigned Numbers Authority)
