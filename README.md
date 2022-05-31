@@ -34,3 +34,6 @@ Création de deux zones :
 Définis par la RFC 1918
 * PUBLIC (Adressage public) <br>
 Géré par l’IANA (Internet Assigned Numbers Authority)
+
+![image](https://user-images.githubusercontent.com/83721477/171194866-22e078e3-58de-448d-9698-3b65c8b41c78.png)
+
