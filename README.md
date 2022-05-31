@@ -43,7 +43,9 @@ Il existe 3 modes de fonctionnement pour le NAT :
 * NAT Overlay (PAT)
 
 ### NAT Statique
+
 1 IP privée pour une IP publique
+
 ![image](https://user-images.githubusercontent.com/83721477/171199078-4660eab4-4279-4095-b621-796e7ad87190.png)
 
 ### NAT Dynamique
