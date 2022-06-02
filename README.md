@@ -53,6 +53,8 @@ Partager 1 adresse IP routable (ou un nombre réduit d'adresses IP routables) en
 Afin de pouvoir « multiplexer » (partager) les différentes adresses IP sur une ou plusieurs adresses IP routables le NAT dynamique utilise le mécanisme de translation de port (PAT), c'est-à-dire l'affectation d'un port source différent à chaque requête de telle manière à pouvoir maintenir une
 correspondance entre les requêtes provenant du réseau interne et les réponses des machines sur Internet, toutes adressées à l'adresse IP du routeur.
 
+`ip nat inside`
+`ip nat outside`
 `overload`: active le PAT
 
 ![image](https://user-images.githubusercontent.com/83721477/171650249-5c66fd4c-9d65-4839-9f0c-91f0373fa9a9.png)
