@@ -48,7 +48,10 @@ Géré par l’IANA (Internet Assigned Numbers Authority)
 
 ![image](https://user-images.githubusercontent.com/83721477/171199078-4660eab4-4279-4095-b621-796e7ad87190.png)
 
-### NAT Dynamique
+### NAT Dynamique (IP masquerading)
+Partager 1 adresse IP routable (ou un nombre réduit d'adresses IP routables) entre plusieurs machines en adressage privé.<br>
+Afin de pouvoir « multiplexer » (partager) les différentes adresses IP sur une ou plusieurs adresses IP routables le NAT dynamique utilise le mécanisme de translation de port (PAT), c'est-à-dire l'affectation d'un port source différent à chaque requête de telle manière à pouvoir maintenir une
+correspondance entre les requêtes provenant du réseau interne et les réponses des machines sur Internet, toutes adressées à l'adresse IP du routeur.
 
 ![image](https://user-images.githubusercontent.com/83721477/171199441-0e18ed38-dec6-41a4-8088-bb4ede1633c1.png)
 
